@@ -9,7 +9,7 @@ function App() {
       
     const world = new World();
     world.init();
-    const simulation = new Simulation(world.scene, 1000);
+    const simulation = new Simulation(world.scene, 200);
     world.loadSimulation(simulation);
     simulation.init();
 

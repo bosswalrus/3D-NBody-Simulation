@@ -1,4 +1,4 @@
-export default class OctreeNode {
+class OctreeNode {
     constructor(x, y, z, w, h, d) {
         this.x = x;
         this.y = y;
@@ -22,4 +22,14 @@ export default class OctreeNode {
     }
 
 
+}
+
+export default class Octree {
+    constructor(x, y, z, w, h, d) {
+        this.root = new OctreeNode(x, y, z, w, h, d);
+    }
+
+    insert(body) {
+        this.root.insert(body);
+    }
 }
