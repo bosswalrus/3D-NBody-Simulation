@@ -1,1 +1,3 @@
-[Demo](https://bosswalrus.github.io/3D-NBody-Simulation/)
+## Demo
+
+[https://umvar.github.io/3D-NBody-Simulation/](https://umvar.github.io/3D-NBody-Simulation/)
